@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spicy Rice</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- FavIcon CSS -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="spicyrice" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://kateseo0826.github.io/spicyrice/"
+    />
+    <meta
+      property="og:image"
+      content="https://kateseo0826.github.io/spicyrice/assets/og.webp"
+    />
+    <!--Map Box CDN-->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="./main.js" defer></script>
+
+    <!--Font Awesome Icon CDN-->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header-section">
+      <!--Navbar Start  -->
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="#"
+            ><img
+              class="header-logo-img"
+              src="./assets/logo/logo_horizontal.png"
+              alt="logo"
+          /></a>
+        </div>
+        <!-- Site Logo End -->
+        <nav class="header-nav">
+          <ul class="header-menu">
+            <li>
+              <a href="#about" class="header-menu-item">About Us</a>
+            </li>
+            <li>
+              <a href="#menu" class="header-menu-item">Menu</a>
+            </li>
+            <li>
+              <a href="#location" class="header-menu-item">Location</a>
+            </li>
+            <li>
+              <a href="#contact" class="header-menu-item">CONTACT US</a>
+            </li>
+          </ul>
+          <a href="#" class="navbar-toggleBtn">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </nav>
+        <!--Navbar End  -->
+      </div>
+    </header>
+    <!-- Header End -->
+    <!-- Main Banner Start -->
+    <section class="main-banner-section">
+      <div class="main-container">
+        <div class="main-title">
+          <h1>
+            SPRICE <br />
+            Spice & Rice
+          </h1>
+          <p>Spice up your life with SPICY food truck</p>
+        </div>
+        <div class="main-image"><img src="assets/images/truck_main.png" /></div>
+      </div>
+    </section>
+
+    <!-- Special Menu Start -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-left-box">
+          <h2>
+            SPRICE BRING YOU<br />
+            ALL OVER THE WORLD
+          </h2>
+          <img src="assets/images/spices.png" />
+        </div>
+        <div class="about-right-box">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi utUt enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut
+          </p>
+        </div>
+      </div>
+      <div class="about-description-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </section>
+    <!-- Special Menu End -->
+    <!-- Main Banner End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="spicy-menu-section">
+      <div class="container">
+        <aside>
+          <div class="navbar">
+            <nav>
+              <ul>
+                <li class="selectedLink" name="spicy1">Spicy1</li>
+                <li name="spicy2">Spicy2</li>
+                <li name="spicy3">Spicy3</li>
+                <li name="spicy4">Spicy4</li>
+                <li name="spicy5">Spicy5</li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+        <div>
+          <div class="card active spicy1" data-spicy1>
+            <div class="card-title">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. .
+              </p>
+            </div>
+            <div class="card-content">
+              <img src="assets/images/pepper.png" />
+            </div>
+            <div class="card-title2">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+          </div>
+          <div class="card spicy2" data-spicy2>
+            <div class="card-title">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. .
+              </p>
+            </div>
+            <div class="card-content">
+              <img src="assets/images/pepper.png" />
+            </div>
+            <div class="card-title2">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+          </div>
+          <div class="card spicy3" data-spicy3>
+            <div class="card-title">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. .
+              </p>
+            </div>
+            <div class="card-content">
+              <img src="assets/images/pepper.png" />
+            </div>
+            <div class="card-title2">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+          </div>
+          <div class="card spicy4" data-spicy4>
+            <div class="card-title">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. .
+              </p>
+            </div>
+            <div class="card-content">
+              <img src="assets/images/pepper.png" />
+            </div>
+            <div class="card-title2">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+          </div>
+
+          <div class="card spicy5" data-spicy5>
+            <div class="card-title">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+            <div class="card-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. .
+              </p>
+            </div>
+            <div class="card-content">
+              <img src="assets/images/pepper.png" />
+            </div>
+            <div class="card-title2">
+              <h2>
+                UNIQUE <br />
+                VARIATION OF <br />
+                GOCHUJANG
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+    <section class="menu-section">
+      <h1>MENU</h1>
+      <div class="container">
+        <div class="menu-card">
+          <img src="assets/images/menu/menu3.png" alt="" />
+          <h2 class="menu-title">Menu Name</h2>
+          <p>
+            Choose <br />
+            1 spice / 1 meat
+            <br />150g rice
+          </p>
+          <span class="menu-price">9$</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/images/menu/menu4.png" alt="" />
+          <h2 class="menu-title">Menu Name</h2>
+          <p>
+            Choose <br />
+            1 spice / 1 meat
+            <br />150g rice
+          </p>
+          <span class="menu-price">9$</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/images/menu/menu5.png" alt="" />
+          <h2 class="menu-title">Menu Name</h2>
+          <p>
+            Choose <br />
+            1 spice / 1 meat
+            <br />150g rice
+          </p>
+          <span class="menu-price">9$</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/images/menu/menu6.png" alt="" />
+          <h2 class="menu-title">Menu Name</h2>
+          <p>
+            Choose <br />
+            1 spice / 1 meat
+            <br />150g rice
+          </p>
+          <span class="menu-price">9$</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/images/menu/menu7.png" alt="" />
+          <h2 class="menu-title">Menu Name</h2>
+          <p>
+            Choose <br />
+            1 spice / 1 meat
+            <br />150g rice
+          </p>
+          <span class="menu-price">9$</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section Start -->
+    <section class="video-section">
+      <div class="container">
+        <h2>
+          HOW WE BRING SPRICE <br />
+          AT TORONTO
+        </h2>
+        <div class="video-box">
+          <video width="704px" height="400px" controls="controls">
+            <source src="" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- Video Section End -->
+
+    <!-- Location Section Start -->
+    <section id="location" class="location-section">
+      <div class="container">
+        <div class="location-left-box">
+          <h2>
+            LOCATION <br />
+            &SCHEDULE
+          </h2>
+        </div>
+        <div class="map-box">
+          <div id="map" style="width: 100%"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Location Section End -->
+    <!-- Schedule Section Start -->
+    <section class="schedule-section">
+      <div class="container">
+        <div class="schedule-list-box">
+          <div class="schedule-box">
+            <p>20-27 September</p>
+            <h2>Toronto Island</h2>
+            <span class="divider-separator-small"></span>
+            <p><i class="fas fa-map-marker-alt"></i> 9 Queens Quay, M5J 2H3</p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>28-21 September</p>
+            <h2>High Park</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 1873 Bloor St W, M6R 2Z3
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>22-30 September</p>
+            <h2>Music Garden</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 475 Queen's Quay, M5V 2A9
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>01-07 October</p>
+            <h2>Bluffers Park</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 1 Brimley Road South
+              Scarborough, M1M 3W3
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>08-14 October</p>
+            <h2>Berczy Park</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 35 Wellington Street East,
+              M53 1C6
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>15-21 October</p>
+            <h2>Queen's Park</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> College St, & University
+              Ave, M7A 1A2
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>22-28 October</p>
+            <h2>Humber Bay Park</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 100 Humber Bay Park Rd W,
+              M8V 3X7
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>01-07 November</p>
+            <h2>Woodbine</h2>
+            <span class="divider-separator-small"></span>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 1695 Queen St E, M4L 1G7
+            </p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+          <div class="schedule-box">
+            <p>08-15 November</p>
+            <h2>Trinity Bellwoods</h2>
+            <span class="divider-separator-small"></span>
+            <p><i class="fas fa-map-marker-alt"></i> 790 Queen St W, M5H 2N2</p>
+            <p>
+              <i class="fas fa-clock"></i>
+              09:00 - 18:00
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Schedule Section Start -->
+    <!-- Season Branch Section Start -->
+    <section class="branch-section container">
+      <div class="branch-card-box">
+        <div class="branch-card">
+          <img src="assets/images/location/branch1.png" alt="branch1" />
+          <h2>Branch 01</h2>
+          <p>
+            123 Main street, A12 3B4 <br />
+            Monday - Friday / Weekend off <br />
+            09:00-20:00
+          </p>
+        </div>
+        <div class="branch-card">
+          <img src="assets/images/location/branch2.png" alt="branch2" />
+          <h2>Branch 02</h2>
+          <p>
+            123 Main street, A12 3B4 <br />
+            Monday - Friday / Weekend off <br />
+            09:00-20:00
+          </p>
+        </div>
+        <div class="branch-card">
+          <img src="assets/images/location/branch3.png" alt="branch3" />
+          <h2>Branch 03</h2>
+          <p>
+            123 Main street, A12 3B4 <br />
+            Monday - Friday / Weekend off <br />
+            09:00-20:00
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Season Branch Section End -->
+    <!-- Sprice Gallery -->
+    <section class="gallery-section">
+      <div>
+        <div class="about-us-gallery">
+          <figure class="gallery-item gallery-item-1">
+            <img
+              src="./assets/images/gallery/photo01.png"
+              class="gallery-img"
+              alt="Image 1"
+            />
+          </figure>
+          <figure class="gallery-item gallery-item-2">
+            <p>Enjoy Your Sprice <br />bring you to all over the world</p>
+          </figure>
+          <figure class="gallery-item gallery-item-3">
+            <img
+              src="./assets/images/gallery/photo02.png"
+              class="gallery-img"
+              alt="Image 3"
+            />
+          </figure>
+          <figure class="gallery-item gallery-item-4">
+            <img
+              src="./assets/images/gallery/photo03.png"
+              class="gallery-img"
+              alt="Image 4"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Sprice Gallery Section End -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-box-1">
+          <h2>CONTACT US</h2>
+          <div class="email-box">
+            <div class="icon-box">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <span>spicyrice@adsologist.com</span>
+          </div>
+          <div class="phone-number-box">
+            <div class="icon-box">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <span>+1 437 255 0237</span>
+          </div>
+          <p>
+            Proin gravida nibh vel velit auctor <br />
+            aliquet. Aenean sollicitudin, lorem quis.<br />
+            aliquet. Aenean sollicitudin, lorem quis.
+          </p>
+        </div>
+        <div class="contact-box-2">
+          <form
+            class="contact-form"
+            method="POST"
+            name="ContactForm"
+            id="ContactForm"
+            action="response.php"
+          >
+            <input
+              type="text"
+              name="yourName"
+              id="yourName"
+              placeholder="Full Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <textarea
+              type="text"
+              name="messageText"
+              id="messageText"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+    <!-- Footer Start -->
+    <footer class="footer-section">
+      <div class="footer-nav-box">
+        <a href="#">Home</a>
+        <span>|</span>
+        <a href="#about">About Us</a>
+        <span>|</span>
+        <a href="#menu">Menu </a>
+        <span>|</span>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div class="container">
+        <div class="footer-box-1">
+          <h2>Contact Information</h2>
+          <a href="mailto:adsologist@adsologist.com"
+            >adsologist@adsologist.com</a
+          >
+          <a href="tel:+14372550237 ">+1 437 255 0237</a>
+          <!-- <div class="social-icons-box">
+            <span class="icon-box-2">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+            <span class="icon-box-2">
+              <i class="fa-brands fa-square-facebook"></i>
+            </span>
+            <span class="icon-box-2">
+              <i class="fa-brands fa-square-twitter"></i>
+            </span>
+          </div> -->
+        </div>
+        <div class="footer-img-box">
+          <img src="./assets/logo/main_logo.png" />
+        </div>
+        <div class="footer-box-2">
+          <h2>Information</h2>
+          <p>Adsologist food company Inc</p>
+          <p>@2023 | Adsologist all right</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  </body>
+</html>
