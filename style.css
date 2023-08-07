@@ -232,14 +232,10 @@ li:hover::before {
 .card .card-content {
   font-size: 1.5rem;
 }
-.spicy4 {
-  background: #11b4d1;
-}
 .selectedLink {
   font-weight: bold;
   font-family: "Roboto, Bold", sans-serif;
 }
-
 @keyframes slide {
   0% {
     transform: translateX(-100%);
@@ -619,7 +615,10 @@ textarea {
     display: flex;
   }
   .main-title {
-    margin-top: 2rem;
+    margin-top: 4rem;
+  }
+  .main-image img {
+    width: 100%;
   }
   .main-banner-section .main-container {
     flex-direction: column;
@@ -630,16 +629,43 @@ textarea {
   .special-menu-box {
     grid-template-columns: 1fr 1fr;
   }
+  .card-content img {
+    width: 320px;
+    height: auto;
+  }
+  .card-title h2,
+  .card-title2 h2 {
+    font-size: 3.25rem;
+  }
+  .branch-card img {
+    width: 300px;
+    height: 300px;
+  }
+  .branch-card-box {
+    padding: 1.5rem;
+  }
+  .menu-section .container,
+  .location-section .container,
+  .schedule-section .container {
+    padding: 1.5rem;
+  }
   .about-section .container {
+    margin: unset;
     padding: 2rem;
   }
   .about-box-right img {
     width: 700px;
   }
+  .contact-form input {
+    width: 540px;
+  }
+  .contact-box-1 {
+    padding: 0 1rem;
+  }
   .contact-section .container {
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 /* Responsive 820px */
@@ -674,13 +700,9 @@ textarea {
     flex-direction: column;
   }
   .location-section .container {
-    width: 600px;
+    max-width: 600px;
     flex-direction: column;
     padding: 0.5rem;
-  }
-  .navbar {
-    flex-direction: unset;
-    flex-wrap: wrap;
   }
   .schedule-section .schedule-list-box {
     width: 600px;
@@ -700,7 +722,7 @@ textarea {
     font-size: 2.5rem;
   }
   .contact-box-1 {
-    margin: 0 auto;
+    margin: 1rem 0;
   }
   .schedule-box p {
     margin-top: 0.75rem;
@@ -709,10 +731,9 @@ textarea {
     text-align: center;
     line-height: 1.5rem;
   }
-  .footer-section .container {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
+  .video-box video {
+    max-width: 600px;
+    max-height: 600px;
   }
   .branch-card-box {
     flex-direction: column;
@@ -734,9 +755,9 @@ textarea {
     grid-row-start: unset;
     grid-row-end: unset;
   }
-  .card .card-title,
-  .card .card-title2 {
-    font-size: 1.5rem;
+  .card-title h2,
+  .card-title2 h2 {
+    font-size: 2rem;
   }
   .card .card-content {
     font-size: 1rem;
@@ -761,8 +782,16 @@ textarea {
     font-size: 2rem;
   }
   .gallery-img {
-    width: 600px;
-    height: 600px;
+    max-width: 600px;
+    max-height: 600px;
+  }
+  .contact-section .container {
+    align-items: center;
+  }
+  .footer-section .container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
   }
 }
 
@@ -778,20 +807,53 @@ textarea {
     margin-top: 3rem;
   }
   .main-title h1 {
-    width: 300px;
+    max-width: 300px;
+    padding: 2rem 0;
     font-size: 3rem;
+  }
+  .main-image {
+    margin: 2rem 0;
+  }
+  .about-left-box h2 {
+    margin: 3rem 0;
+  }
+  .about-description-box {
+    margin: 0 0 1rem;
   }
   .video-section {
     margin: 5rem auto 0;
   }
   .video-box video {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .card-description {
+    max-width: 300px;
+  }
+  .card-content img {
+    max-width: 300px;
+  }
+  .menu-title {
+    font-size: 1rem;
+  }
+  .menu-card img {
+    width: 50%;
+    height: auto;
+  }
+  .menu-card p {
+    font-size: 1rem;
+  }
+  .menu-price {
+    margin: 1rem;
+    font-size: 1rem;
   }
   .about-left-box img,
   .schedule-section .schedule-list-box,
   .contact-form input {
-    width: 300px;
+    max-width: 300px;
+  }
+  .contact-box-1 span {
+    font-size: 1rem;
   }
   .branch-card img {
     width: 300px;
@@ -807,5 +869,16 @@ textarea {
   }
   .gallery-item-2 {
     font-size: 1.5rem;
+  }
+  .footer-nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-section .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin: 4rem auto;
   }
 }
