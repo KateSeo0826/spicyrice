@@ -833,6 +833,12 @@ textarea {
   .card-content img {
     max-width: 300px;
   }
+  .menu-section {
+    margin: 5rem auto;
+  }
+  .menu-section h1 {
+    padding-bottom: 0;
+  }
   .menu-title {
     font-size: 1rem;
   }
