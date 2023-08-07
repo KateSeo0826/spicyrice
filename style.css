@@ -678,12 +678,13 @@ textarea {
     width: 600px;
   }
   .about-right-box {
+    max-width: 600px;
     padding: 1.5rem 0;
   }
   .about-description-box {
-    width: 100%;
-    margin: 3rem 0 3rem;
-    padding: 1.5rem;
+    width: 600px;
+    margin: 3rem auto 3rem;
+    padding: 1.5rem 0;
     left: 1%;
   }
   .spicy-menu-section .container {
@@ -741,25 +742,15 @@ textarea {
   ul {
     padding: 1.5rem;
   }
-  .card.active {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-  .card-title,
-  .card-content,
-  .card-title2,
-  .card-description {
-    grid-column-start: unset;
-    grid-column-end: unset;
-    grid-row-start: unset;
-    grid-row-end: unset;
-  }
   .card-title h2,
   .card-title2 h2 {
     font-size: 2rem;
   }
   .card .card-content {
     font-size: 1rem;
+  }
+  .card-content img {
+    max-width: 300px;
   }
   .about-us-gallery {
     margin: 1rem auto;
@@ -817,7 +808,8 @@ textarea {
     margin: 3rem 0;
   }
   .about-description-box {
-    margin: 0 0 1rem;
+    max-width: 300px;
+    margin: 0 auto 2rem;
   }
   .video-section {
     margin: 5rem auto 0;
@@ -826,12 +818,23 @@ textarea {
     max-width: 300px;
     max-height: 300px;
   }
+  .card.active {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .card-title,
+  .card-content,
+  .card-title2,
+  .card-description {
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: unset;
+    grid-row-end: unset;
+  }
   .card-description {
     max-width: 300px;
   }
-  .card-content img {
-    max-width: 300px;
-  }
+
   .menu-section {
     margin: 5rem auto;
   }
