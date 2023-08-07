@@ -649,7 +649,8 @@ textarea {
   }
   .menu-section .container,
   .location-section .container,
-  .schedule-section .container {
+  .schedule-section .container,
+  .gallery-section .container {
     padding: 1.5rem;
   }
   .about-section .container {
