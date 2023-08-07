@@ -63,7 +63,7 @@ if(empty($email) || empty($phone) || empty($name) || empty($message)) {
                         <p style="font-size: 1.1rem; color:black;">'.$message.'</p>
                         <div style="text-align:center;">
                             <button style="background-color: #262626; outline: none; width: 180px; height: 40px; border-radius: 20px; text-align: center; font-size: 1rem; margin-top:2rem;">
-                                <a style="text-decoration: none; color: #ffffff;" href="/hakunamadada">Confirm</a>
+                                <a style="text-decoration: none; color: #ffffff;" href="/">Confirm</a>
                             </button>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ if(empty($email) || empty($phone) || empty($name) || empty($message)) {
         sendMail($subject, $messageBody, $altBody, $addAddress, $responseMessage);
 
         // Send email to User
-        $companyName = "Hakuna Madada Inc.";
+        $companyName = "Spicy Rice Inc.";
         $site_url = "https://www.adsologist.com";
         $site_phone = "+1 437 255 0237";
         $subject_To = "Thank you for enquiring with us, one of our experts will be in touch with you as soon as possible.";
@@ -145,7 +145,7 @@ function cutString($string, $length) {
 
 // Function to send email using PHPMailer
 function sendMail($subject, $messageBody, $altBody, $addAddress, $responseMessage = Null) {
-    $company = "Hakuna Madada Inc.";
+    $company = "Spicy Rice Inc.";
     $MessageFaultText = "Your message could not be sent. Please try again later.";
 
     // Create a new PHPMailer instance; passing 'true' enables exceptions
