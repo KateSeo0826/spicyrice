@@ -397,6 +397,9 @@ li:hover::before {
   color: #1d1d1d;
 }
 /* Branch-section Start*/
+.gallery-section .container {
+  margin-bottom: 6rem;
+}
 .about-us-gallery {
   margin-bottom: 1rem;
   display: grid;
@@ -410,30 +413,30 @@ li:hover::before {
   object-fit: cover;
 }
 .gallery-item-1 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 6;
 }
 .gallery-item-2 {
   font-size: 3rem;
   font-weight: bold;
-  grid-column-start: 4;
-  grid-column-end: 8;
-  grid-row-start: 3;
-  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 5;
 }
 .gallery-item-3 {
-  grid-column-start: 4;
+  grid-column-start: 3;
   grid-column-end: 6;
-  grid-row-start: 7;
-  grid-row-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 8;
 }
 .gallery-item-4 {
   grid-column-start: 6;
   grid-column-end: 8;
-  grid-row-start: 8;
-  grid-row-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 8;
 }
 /* Contact Section Start */
 .contact-section {
