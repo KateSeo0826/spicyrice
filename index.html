@@ -269,6 +269,37 @@
           </div>
         </div>
       </div>
+
+      <div>
+        <div>
+          <ul style="text-align: center">
+            <li onclick="currentSlide(1)">spicy1</li>
+            <li onclick="currentSlide(2)">spicy2</li>
+            <li onclick="currentSlide(3)">spicy3</li>
+          </ul>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="assets/images/pepper.png" style="width: 100%" />
+            <div class="text">Caption Text</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/images/pepper.png" style="width: 100%" />
+            <div class="text">Caption Two</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/images/pepper.png" style="width: 100%" />
+            <div class="text">Caption Three</div>
+          </div>
+        </div>
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
     </section>
     <!-- Menu Section End -->
     <section class="menu-section">
@@ -644,7 +675,38 @@
       </div>
     </footer>
     <!-- Footer End -->
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
 
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   </body>
 </html>

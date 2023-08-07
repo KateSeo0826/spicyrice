@@ -25,10 +25,10 @@ const highLightSelectedLink = (currentIndex) => {
     links[currentIndex].classList.add("selectedLink")
 }
 
+/* Toggle Button*/
 const navbarMenu = document.querySelector('.header-menu')
 const toggleBtn = document.querySelector('.navbar-toggleBtn')
 
-/* Toggle Button*/
 toggleBtn.addEventListener('click', () => {
     navbarMenu.classList.toggle('open')
 })
