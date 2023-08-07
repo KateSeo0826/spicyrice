@@ -176,7 +176,7 @@ li:hover::before {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(6);
-  animation: slide 500ms ease-in-out both;
+  animation: slide 1s ease-in-out both;
 }
 .card-content img {
   width: 360px;
@@ -345,7 +345,6 @@ li:hover::before {
   width: 50vw;
   height: 50vh;
 }
-
 /* Branch-section Start*/
 .branch-section .main-container {
   display: flex;
