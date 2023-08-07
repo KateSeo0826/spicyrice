@@ -446,7 +446,7 @@ li:hover::before {
 .contact-section .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 9rem 0;
 }
 .contact-form {
