@@ -63,7 +63,7 @@ if(empty($email) || empty($phone) || empty($name) || empty($message)) {
                         <p style="font-size: 1.1rem; color:black;">'.$message.'</p>
                         <div style="text-align:center;">
                             <button style="background-color: #262626; outline: none; width: 180px; height: 40px; border-radius: 20px; text-align: center; font-size: 1rem; margin-top:2rem;">
-                                <a style="text-decoration: none; color: #ffffff;" href="/">Confirm</a>
+                                <a style="text-decoration: none; color: #ffffff;" href="/spicyrice">Confirm</a>
                             </button>
                         </div>
                     </div>
@@ -166,7 +166,7 @@ function sendMail($subject, $messageBody, $altBody, $addAddress, $responseMessag
 
         $mail->Username = "kateseo@adsologist.com";
 
-        $mail->Password = "";
+        $mail->Password = "lpsknjzwycosxuby";
 
         $mail->setFrom('kateseo@adsologist.com', $company);
         $mail->addAddress($addAddress);
