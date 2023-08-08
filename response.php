@@ -166,7 +166,7 @@ function sendMail($subject, $messageBody, $altBody, $addAddress, $responseMessag
 
         $mail->Username = "kateseo@adsologist.com";
 
-        $mail->Password = "lpsknjzwycosxuby";
+        $mail->Password = "";
 
         $mail->setFrom('kateseo@adsologist.com', $company);
         $mail->addAddress($addAddress);
