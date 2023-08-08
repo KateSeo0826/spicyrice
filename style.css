@@ -95,7 +95,7 @@ ul {
   top: 1.9rem;
 }
 .main-title h1 {
-  width: 580px;
+  width: 100%;
   font-size: 6.25rem;
 }
 .main-title p {
@@ -116,9 +116,9 @@ ul {
   padding: 0 8rem;
 }
 .about-description-box {
+  position: relative;
   width: 37%;
   margin: 3rem 0 8rem;
-  position: relative;
   left: 46%;
 }
 .about-description-box p {
@@ -367,7 +367,7 @@ li:hover::before {
   gap: 1.25rem;
 }
 .branch-card img {
-  width: 400px;
+  width: 100%;
   height: 400px;
   object-fit: cover;
 }
@@ -729,7 +729,7 @@ textarea {
     flex-direction: column;
   }
   .branch-card img {
-    width: 600px;
+    width: 100%;
     height: 600px;
   }
   .navbar {
@@ -786,18 +786,8 @@ textarea {
 
 /* Responsive 598px */
 @media screen and (max-width: 598px) {
-  .menu-box-2 {
-    width: 360px;
-  }
-  .menu-section .container {
-    flex-direction: column;
-  }
-  .menu-section .main-image img {
-    margin-top: 3rem;
-  }
   .main-title h1 {
-    max-width: 300px;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     font-size: 3rem;
   }
   .main-image {
@@ -809,6 +799,15 @@ textarea {
   .about-description-box {
     max-width: 300px;
     margin: 0 auto 2rem;
+  }
+  .menu-box-2 {
+    width: 360px;
+  }
+  .menu-section .container {
+    flex-direction: column;
+  }
+  .menu-section .main-image img {
+    margin-top: 3rem;
   }
   .video-section {
     margin: 5rem auto 0;
@@ -833,7 +832,6 @@ textarea {
   .card-description {
     max-width: 300px;
   }
-
   .menu-section {
     margin: 5rem auto;
   }
@@ -863,7 +861,7 @@ textarea {
     font-size: 1rem;
   }
   .branch-card img {
-    width: 300px;
+    width: 100%;
     height: 300px;
   }
   .location-section .container {
