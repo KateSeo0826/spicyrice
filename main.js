@@ -59,5 +59,3 @@ function setupMap(center) {
     map.addControl(nav)
 
 }
-
-
