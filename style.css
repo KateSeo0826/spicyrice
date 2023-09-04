@@ -599,6 +599,8 @@ textarea {
   border-color: #ef3e2dcc;
 }
 /* Footer Section End */
+@media screen and (max-width: 1368px) {
+}
 /* Responsive 1280px */
 @media screen and (max-width: 1280px) {
   .header .header-container {
@@ -875,7 +877,7 @@ textarea {
     margin: 1rem;
     font-size: 1rem;
   }
-  book-box h2 {
+  .book-box h2 {
     font-size: 2rem;
   }
   .about-left-box img,
@@ -939,7 +941,7 @@ textarea {
     margin: 1rem;
     font-size: 1rem;
   }
-  book-box h2 {
+  .book-box h2 {
     font-size: 2rem;
   }
   .about-left-box img,
@@ -947,10 +949,10 @@ textarea {
     max-width: 260px;
   }
   .schedule-section .schedule-list-box {
-    max-width: 230px;
+    max-width: 260px;
   }
   .location-section .container {
-    width: 360px;
+    width: 260px;
   }
   .gallery-img {
     width: 260px;
